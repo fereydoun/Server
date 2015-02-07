@@ -1,4 +1,4 @@
-package dotin;
+package dotin.entities;
 
 import dotin.interfaces.IAccount;
 
