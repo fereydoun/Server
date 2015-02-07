@@ -1,26 +1,26 @@
 package dotin.entities;
 
-import dotin.interfaces.IAccount;
+import dotin.interfaces.IDeposit;
 
 import java.math.BigDecimal;
 
 /**
  * Created by Dotin school 5 on 2/7/2015.
  */
-public class Account implements IAccount{
+public class Deposit implements IDeposit {
 
-    private String accountNumber;
+    private String depositNumber;
     private String customerNumber;
     private BigDecimal balance;
     private BigDecimal initialBalance;
     private BigDecimal upperBound;
 
-    public String getAccountNumber() {
-        return accountNumber;
+    public String getDepositNumber() {
+        return  depositNumber;
     }
 
-    public void setAccountNumber(String accountNumber) {
-        this.accountNumber = accountNumber;
+    public void setDepositNumber(String accountNumber) {
+        this. depositNumber = accountNumber;
     }
 
     public String getCustomerNumber() {

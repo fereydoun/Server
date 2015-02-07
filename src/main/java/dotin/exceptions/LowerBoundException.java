@@ -3,7 +3,7 @@ package dotin.exceptions;
 /**
  * Created by Dotin school 5 on 2/7/2015.
  */
-public class LowerBoundException  extends AccountException{
+public class LowerBoundException  extends DepositException {
 
     public LowerBoundException()
     {

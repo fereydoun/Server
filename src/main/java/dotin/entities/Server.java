@@ -1,9 +1,6 @@
 package dotin.entities;
 
-/**
- * Created by Dotin school 5 on 2/7/2015.
- */
-public class ServerConfig {
+public class Server {
 
     private String serverIP;
     private int serverPort;
@@ -23,5 +20,12 @@ public class ServerConfig {
     public void setServerIP(String serverIP) {
         this.serverIP = serverIP;
     }
+
+    public void Listen()
+    {
+
+    }
+
+
 
 }

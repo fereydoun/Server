@@ -3,7 +3,7 @@ package dotin.exceptions;
 /**
  * Created by Dotin school 5 on 2/7/2015.
  */
-public class UpperBoundException extends AccountException {
+public class UpperBoundException extends DepositException {
 
     public UpperBoundException()
     {

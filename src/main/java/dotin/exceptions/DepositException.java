@@ -3,14 +3,14 @@ package dotin.exceptions;
 /**
  * Created by Dotin school 5 on 2/7/2015.
  */
-public class AccountException extends Exception {
+public class DepositException extends Exception {
 
-    public AccountException()
+    public DepositException()
     {
         super();
     }
 
-    public AccountException(String s)
+    public DepositException(String s)
     {
         super(s);
 
